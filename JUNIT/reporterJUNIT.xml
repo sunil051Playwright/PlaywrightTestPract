@@ -1,0 +1,41 @@
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="9.564015000000001">
+<testsuite name="MultiBrowserTest\Reporterpract1.spec.ts" timestamp="2026-03-25T10:38:06.038Z" hostname="chromium" tests="3" failures="1" skipped="0" time="6.771" errors="0">
+<testcase name="Reporter practice 1" classname="MultiBrowserTest\Reporterpract1.spec.ts" time="5.669">
+<failure message="Reporterpract1.spec.ts:3:5 Reporter practice 1" type="FAILURE">
+<![CDATA[  [chromium] › MultiBrowserTest\Reporterpract1.spec.ts:3:5 › Reporter practice 1 ───────────────────
+
+    Error: expect(page).toHaveTitle(expected) failed
+
+    Expected: "Swag Lbs"
+    Received: "Swag Labs"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveTitle" with timeout 5000ms
+        9 × unexpected value "Swag Labs"
+
+
+      3 | test("Reporter practice 1", async({page})=>{
+      4 | await page.goto('https://www.saucedemo.com/')
+    > 5 | await expect(page).toHaveTitle('Swag Lbs')
+        |                    ^
+      6 |
+      7 | })
+      8 |
+        at D:\Playwright\MultiBrowserTest\Reporterpract1.spec.ts:5:20
+
+    Error Context: test-results\MultiBrowserTest-Reporterpract1-Reporter-practice-1-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\MultiBrowserTest-Reporterpract1-Reporter-practice-1-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Reporter practice 2" classname="MultiBrowserTest\Reporterpract1.spec.ts" time="0.575">
+</testcase>
+<testcase name="Reporter practice 3" classname="MultiBrowserTest\Reporterpract1.spec.ts" time="0.527">
+</testcase>
+</testsuite>
+</testsuites>

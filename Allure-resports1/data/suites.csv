@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5033","Reporter practice 1","chromium","2026-03-25","passed","2026-03-25","","MultiBrowserTest\Reporterpract.spec.ts","",""
+"","741","Reporter practice 3","chromium","2026-03-25","passed","2026-03-25","","MultiBrowserTest\Reporterpract.spec.ts","",""
+"","728","Reporter practice 2","chromium","2026-03-25","passed","2026-03-25","","MultiBrowserTest\Reporterpract.spec.ts","",""
+"","6119","Reporter practice 1","chromium","2026-03-25","failed","2026-03-25","","MultiBrowserTest\Reporterpract1.spec.ts","",""
+"","772","Reporter practice 3","chromium","2026-03-25","passed","2026-03-25","","MultiBrowserTest\Reporterpract1.spec.ts","",""
+"","835","Reporter practice 2","chromium","2026-03-25","passed","2026-03-25","","MultiBrowserTest\Reporterpract1.spec.ts","",""
