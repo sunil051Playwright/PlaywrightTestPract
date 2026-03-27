@@ -14,4 +14,5 @@ await expect(page).toHaveTitle('Swag Labs')
 test("Reporter practice 3", async({page})=>{
 await page.goto('https://www.saucedemo.com/')
 await expect(page).toHaveTitle('Swag Labs')
+console.log("2nd pull1234")
 })
